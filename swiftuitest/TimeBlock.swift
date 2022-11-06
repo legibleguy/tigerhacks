@@ -31,7 +31,7 @@ struct TimeBlock: View {
                         event in
                         if(event.TimeHours.getHours() == time.getHours() && event.TimeHours.isAM() == time.isAM()){
                             ZStack{
-                                RoundedRectangle(cornerRadius: 36).fill(.brown).frame(width: 305, height: 25)
+                                RoundedRectangle(cornerRadius: 26).fill(.blue).frame(width: 305, height: 25)
                                 
                                 HStack {
                                     Text(event.Title).padding(.leading, 12)

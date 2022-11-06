@@ -107,5 +107,10 @@ class GeneralData: ObservableObject{
         self.fridayImportantHours = UserDefaults.standard.array(forKey: "fridayImportantHours") as? [Int] ?? []
         
         self.saturdayImportantHours = UserDefaults.standard.array(forKey: "saturdayImportantHours") as? [Int] ?? []
+        
+        for event in self.mondayImportantHours{
+            let newEvent = CommuteEvent(id: events.count, Title: "", TimeHours: ClockTime(hours: event, minutes: 0, AM: false, isMilitaryTime: true), location: WorldLocation(lon: 0, lat: 0))
+            events.append(newEvent)
+        }
     }
 }

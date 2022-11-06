@@ -20,7 +20,6 @@
 		A1873DFD29175B410069CCA6 /* EventBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1873DFC29175B410069CCA6 /* EventBox.swift */; };
 		A1873DFF29178E370069CCA6 /* NewEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1873DFE29178E370069CCA6 /* NewEvent.swift */; };
 		A1873E01291794470069CCA6 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1873E00291794470069CCA6 /* AppData.swift */; };
-		A1FE1E922917F06600B71AB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FE1E912917F06600B71AB9 /* ViewController.swift */; };
 		A1FE1E942917F09600B71AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FE1E932917F09600B71AB9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,7 +57,6 @@
 		A1873DFC29175B410069CCA6 /* EventBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventBox.swift; sourceTree = "<group>"; };
 		A1873DFE29178E370069CCA6 /* NewEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEvent.swift; sourceTree = "<group>"; };
 		A1873E00291794470069CCA6 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
-		A1FE1E912917F06600B71AB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1FE1E932917F09600B71AB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,7 +118,6 @@
 				A1873DFC29175B410069CCA6 /* EventBox.swift */,
 				A1873DFE29178E370069CCA6 /* NewEvent.swift */,
 				A1873E00291794470069CCA6 /* AppData.swift */,
-				A1FE1E912917F06600B71AB9 /* ViewController.swift */,
 				A1FE1E932917F09600B71AB9 /* AppDelegate.swift */,
 			);
 			path = swiftuitest;
@@ -284,7 +281,6 @@
 				A1873DFF29178E370069CCA6 /* NewEvent.swift in Sources */,
 				A1873DF92917244D0069CCA6 /* TimeBlock.swift in Sources */,
 				A1873DCF2916E78B0069CCA6 /* ContentView.swift in Sources */,
-				A1FE1E922917F06600B71AB9 /* ViewController.swift in Sources */,
 				A1873E01291794470069CCA6 /* AppData.swift in Sources */,
 				A1873DFB29172E730069CCA6 /* Time.swift in Sources */,
 				A1873DF729171D320069CCA6 /* DayButton.swift in Sources */,

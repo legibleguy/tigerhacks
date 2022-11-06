@@ -74,7 +74,7 @@ struct DayButton: View {
     var body: some View {
         ZStack{
             Circle()
-                .fill(data.currDay == day ? .brown : .white)
+                .fill(data.currDay == day ? Color.blue : .white)
             
             Button(getDayNameShortened(inDay:day)){
                 data.currDay = day

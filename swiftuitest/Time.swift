@@ -16,6 +16,12 @@ struct ClockTime{
         self.minutes = minutes
         self.AM = AM
         self.isMilitaryTime = isMilitaryTime
+        
+        if(isMilitaryTime){
+            self.hours = hours > 12 ? hours - 12 : hours
+            self.AM = hours > 12
+            self.isMilitaryTime = false
+        }
     }
     
     func getHoursMilitary() -> Int{
