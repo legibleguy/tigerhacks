@@ -36,7 +36,7 @@ struct TimeBlock: View {
                                 HStack {
                                     Text(event.Title).padding(.leading, 12)
                                     Spacer()
-                                    Image(systemName: "cloud.rain.fill").padding(.trailing, 12.0)
+                                    Image(systemName: "sun.min.fill").padding(.trailing, 12.0)
                                 }
                             }
                             
